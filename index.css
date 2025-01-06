@@ -103,18 +103,20 @@ p.phabilidade{
 }
 
 @media (max-width: 768px) {
-    .divmenu.ajustemenu {
-        margin-left: 0rem;
-        gap: 1rem;
+    div.divmenu.ajustemenu {
+        display: none;
+    }
+    nav.menu {
+        padding: 2rem 1rem;
     }
     a.titulomenu {
         font-size: 1.6rem;
     }
     .divgeral {
-        padding: 2rem 3rem;
+        padding: 1rem;
         flex-direction: column;
         align-items: center;
-        height: 60vh;
+        height: 132vh;
         justify-content: center;
     }
     .div1 h3, div#minhasexperiencias h3, div#minhaformacao h3, .divhabi h3 {
@@ -125,10 +127,20 @@ p.phabilidade{
     }
     p {
         font-size: 1.5rem;
-        padding-right: 4rem;
+        padding-right: 0rem;
     }
     img.imgray {
         width: 60%;
         margin: auto;
+    }
+    .divexpe {
+        width: 90%;
+    }
+    div#minhasexperiencias p, div#minhaformacao p {
+        padding-right: 0rem;
+    }
+    .geralhabi {
+        display: flex;
+        flex-direction: column;
     }
 }
