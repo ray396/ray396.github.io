@@ -36,6 +36,7 @@ i.fa-brands.fa-github.icon-menu, i.fa-brands.fa-linkedin.icon-menu, i.fa-solid.f
     padding: 1rem 3rem;
     background: #272727;
     height: 72vh;
+    border-bottom: solid 2px #c1c1c1;
 }
 img.imgray {
     width: 90%;
@@ -75,6 +76,7 @@ footer {
 div.geralexpe, .divhabi{
     background: #272727;
     padding: 1rem 3rem;
+    border-bottom: solid 2px #c1c1c1;
 }
 div#minhasexperiencias h4, div#minhaformacao h4 {
     font-size: 1.3rem;
@@ -98,4 +100,35 @@ div#minhasexperiencias p, div#minhaformacao p {
 }
 p.phabilidade{
     padding-right: 0rem;
+}
+
+@media (max-width: 768px) {
+    .divmenu.ajustemenu {
+        margin-left: 0rem;
+        gap: 1rem;
+    }
+    a.titulomenu {
+        font-size: 1.6rem;
+    }
+    .divgeral {
+        padding: 2rem 3rem;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        justify-content: center;
+    }
+    .div1 h3, div#minhasexperiencias h3, div#minhaformacao h3, .divhabi h3 {
+        font-size: 2.7rem;
+    }
+    .div1 h4 {
+        font-size: 1.7rem;
+    }
+    p {
+        font-size: 1.5rem;
+        padding-right: 4rem;
+    }
+    img.imgray {
+        width: 60%;
+        margin: auto;
+    }
 }
